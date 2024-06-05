@@ -1,0 +1,14 @@
+﻿.page-background {
+    background-image: url(..images/bigspacevillage.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+
+}

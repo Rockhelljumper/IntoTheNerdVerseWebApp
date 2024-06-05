@@ -1,0 +1,26 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>IntoTheNerdVerse</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-8 justify-content-center">
+            <a 
+                href="/" >Home
+            </a>
+            <a href="/About" >About</a>
+            <a href="/Listen" >Listen</a>
+            <a href="/Merchstore" >Merch store</a>
+            <a href="/Contactus" >Contact us!</a>
+            <a href="/Subscribe" >Subscribe</a>
+        </div>
+        
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
