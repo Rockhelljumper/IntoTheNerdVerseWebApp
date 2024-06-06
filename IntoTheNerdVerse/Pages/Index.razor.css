@@ -1,11 +1,10 @@
 ﻿.page-background {
-    background-image: url(..images/bigspacevillage.jpg);
+    /*background-image: url(../images/bigspacevillage.jpg);*/
+    background-image: url(../images/citybackground.gif);
     background-repeat: no-repeat;
-    background-size:contain;
-    background-position:center;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    width: 100%
 }
 body, html {
     height: 100%;
