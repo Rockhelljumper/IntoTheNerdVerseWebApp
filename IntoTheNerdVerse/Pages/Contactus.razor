@@ -1,6 +1,59 @@
 ﻿@page "/contactus"
 <h3>Contactus</h3>
 
-@code {
+<MudItem Style="height: 100%; background-color: #e7e6f3;" Class="mt-n8; justify-center; align-content-center">
+    <br />
+    <p>
+        <h1 style="font-family:'Century Schoolbook';text-align:center;">Contact us</h1>
+    </p>
 
-}
+    <h6 style="font-family:'Century Schoolbook';text-align:center;">
+
+        Interested in a service? Book with us today!!
+        <br />
+        Looking for something you don't see or have more questions? Schedule a call with us today, or fill out our Contact us form below for email communication!
+
+        <br />
+    </h6>
+    <br />
+</MudItem>
+
+
+<MudItem Style=" height:100%; background-color:#white " Class="mt-8">
+    <h1 style="font-family:'Century Schoolbook';text-align:center">
+        Looking for email instead of a call?
+    </h1>
+    <MudItem Class="mr-16" Style="min-width:900;">
+        <HCFP_WebApp.Components.ClassicContactUs />
+    </MudItem>
+    <br />
+</MudItem>
+
+
+<MudItem Style=" height:100%; background-color:#f4f4f4 " Class="mt-8">
+    <h1 style="font-family:'Century Schoolbook';text-align:center">
+        Schedule a call!
+    </h1>
+<MudPaper Elevation="4" Style="height: 2050px; background-color: #f1f1f1; padding: 20px;">
+    <MudItem Style="width: 98%; height: 96%; background-color: #f1f1f1;">
+        <iframe src='https://outlook.office365.com/owa/calendar/HillCountryFingerprintingNotaryBookings@NETORGFT4149729.onmicrosoft.com/bookings/'
+                height="400"
+                scrolling='yes'
+                style='border:0'
+                margin="10">
+        </iframe>
+    </MudItem>
+</MudPaper>
+</MudItem>
+<MudGrid Style="background-color: #5d5d5d; align-content: center">
+    <MudItem>
+
+        <img src="./images/techneighbors.png" alt="Techenighbors" class="image" style="width: 200px">
+    </MudItem>
+    <MudItem>
+        <p style="color: white; font-size 18px">
+            <strong> Powered By <MudLink href="https://techneighbors.com" Color="Color.Primary">Techneighbors</MudLink> </strong>
+        </p>
+    </MudItem>
+
+</MudGrid>
