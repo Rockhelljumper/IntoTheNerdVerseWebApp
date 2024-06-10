@@ -12,7 +12,7 @@ jobs:
     
     - name: Build the Docker image
       working-directory: ./
-      run: docker build . -t rockhelljumper/intonerdverse_webapp:latest
+      run: docker build . -t rockhelljumper/IntoTheNerdVerse:latest
 
     - name: Log into Docker Hub
       uses: docker/login-action@v2
@@ -21,5 +21,5 @@ jobs:
         password: ${{secrets.DOCKERHUB_TOKEN}}
 
     - name: Push the image to Docker Hub
-      run: docker push  rockhelljumper/intonerdverse_webapp
+      run: docker push  rockhelljumper/IntoTheNerdVerse
       
