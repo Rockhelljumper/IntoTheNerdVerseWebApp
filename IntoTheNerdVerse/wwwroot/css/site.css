@@ -7,7 +7,9 @@ html, body {
 h1:focus {
     outline: none;
 }
-
+/*:hover {
+    outline: 1px blue solid;
+}*/
 a, .btn-link {
     color: #0071c1;
 }
@@ -62,3 +64,8 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.footer {
+    padding: 0rem;
+    margin: 0rem;
+}

@@ -1,9 +1,9 @@
 ﻿@inherits LayoutComponentBase
 
 <PageTitle>IntoTheNerdVerse</PageTitle>
-<MudThemeProvider/>
-<MudDialogProvider/>
-<MudSnackbarProvider/>
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
 
 <div class="page">
     <div class="sidebar">
@@ -11,17 +11,41 @@
     </div>
 
     <main>
-        <div class="top-row px-8 justify-content-center ">
-           
-            <a class="atag" href="/" >Home</a>
-            <a class="atag" href="/About" >About</a>
-            <a class="atag"  href="/Listen">Listen</a>
-            <a class="atag" target="_blank" href="https://rockhelljumper.stream/merch">Merch store</a>
-            <a class="atag" href="/Subscribe" >Subscribe</a>
+        <div class="top-row px-8 justify-content-center; align-content-center">
+            <MudGrid Style="align-content:center; justify-center; max-width: 100%" Justify="Justify.SpaceBetween">
+                <MudItem>
+                    &ensp;&ensp;&ensp;&ensp;
+                </MudItem>
+                <MudItem Style="align-content:center;">
+                    <a style="font-size: 24px" class="atag" href="/">Home</a>
+                    <a style="font-size: 24px" class="atag" href="/About">About</a>
+                    <a style="font-size: 24px" class="atag" href="/Listen">Listen</a>
+                    <a style="font-size: 24px" class="atag" target="_blank" href="https://rockhelljumper.stream/merch">Merch store</a>
+                    <a style="font-size: 24px" class="atag" href="/Subscribe">Subscribe</a>
+                </MudItem>
+                <MudItem >
+                    <MudIcon Style="color: #df468f; " Icon="@Icons.Material.Filled.Podcasts" Title="Podcasts" Class="align-bottom" />
+                    <MudIcon Style="color: #1a77f2; " Icon="@Icons.Custom.Brands.Facebook" Title="Facebook" />
+                    <MudIcon Icon="@Icons.Custom.Brands.X" Title="X" />
+                </MudItem>
+
+            </MudGrid>
         </div>
-        
-        <article class="content px-4">
+
+        <article >
             @Body
         </article>
+        <MudGrid Style="background-color: #1f2020; align-content: center;  max-width: 100vw;" Class="p-2" Spacing="16">
+            <MudItem>
+
+                <img src="./images/techneighborswhite.png" alt="Techenighbors" class="image" style="width: 200px">
+            </MudItem>
+            <MudItem>
+                <p style="color: white; font-size 18px">
+                    <strong> Powered By <a href="https://techneighbors.com" style="color: #08a49c">Techneighbors</a> </strong>
+                </p>
+            </MudItem>
+
+        </MudGrid>
     </main>
 </div>

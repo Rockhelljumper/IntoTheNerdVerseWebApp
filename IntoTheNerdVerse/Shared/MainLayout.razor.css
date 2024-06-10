@@ -20,9 +20,8 @@ color: white;
 .top-row {
     background-color: #1f2020;
     border-bottom: 0px solid #d6d5d5;
-    justify-content: flex-end;
+    justify-content: center;
     height: 4.5rem;
-    display: flex;
     align-items: center;
 }
 
